@@ -21,8 +21,8 @@ This module requires these other modules and libraries:
   Gtk3
   
   Furthermore you need to install the typelib file for GooCanvas-2.0
-  on Debian try: "sudo apt-get install gir1.2-goocanvas-2.0"
-  on Mageia "urpmi lib64goocanvas-gir2.0" should work
+  on Debian try: `sudo apt-get install gir1.2-goocanvas-2.0`
+  on Mageia `urpmi lib64goocanvas-gir2.0` should work
 
 # COPYRIGHT AND LICENCE
 
