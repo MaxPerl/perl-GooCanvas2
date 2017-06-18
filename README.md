@@ -7,10 +7,12 @@ GooCanvas2 is a new canvas widget for use with Gtk3 that uses the Cairo 2d libra
 
 To install this module type the following:
 
+```
    perl Makefile.PL
    make
    make test
    make install
+```
 
 # DEPENDENCIES
 
