@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Glib::Object::Introspection;
 
-our $VERSION = '0.04';
+our $VERSION = '0.06';
 
 # customization ------------------------------------------------------- #
 
@@ -152,11 +152,11 @@ The GooCanvas2 module provides the following objects, items and models. For more
 
 =item * GooCanvas2::CanvasItemModel - the interface for canvas item models.
 
-=item * GooCanvas2::CanvasItemSimple — the base class for the standard canvas items.
+=item * GooCanvas2::CanvasItemSimple - the base class for the standard canvas items.
 
-=item * GooCanvas2::CanvasItemModelSimple — the base class for the standard canvas item models.
+=item * GooCanvas2::CanvasItemModelSimple - the base class for the standard canvas item models.
 
-=item * GooCanvas2::CanvasStyle — support for cascading style properties for canvas items.
+=item * GooCanvas2::CanvasStyle - support for cascading style properties for canvas items.
 
 =back
 
@@ -164,25 +164,25 @@ The GooCanvas2 module provides the following objects, items and models. For more
 
 =over
 
-=item * GooCanvas2::CanvasGroup — a group of items.
+=item * GooCanvas2::CanvasGroup - a group of items.
 
-=item * GooCanvas2::CanvasEllipse — an ellipse item.
+=item * GooCanvas2::CanvasEllipse - an ellipse item.
 
-=item * GooCanvas2::CanvasGrid — a grid item.
+=item * GooCanvas2::CanvasGrid - a grid item.
 
-=item * GooCanvas2::CanvasImage — an image item.
+=item * GooCanvas2::CanvasImage - an image item.
 
-=item * GooCanvas2::CanvasPath — a path item (a series of lines and curves).
+=item * GooCanvas2::CanvasPath - a path item (a series of lines and curves).
 
-=item * GooCanvas2::CanvasPolyline — a polyline item (a series of lines with optional arrows).
+=item * GooCanvas2::CanvasPolyline - a polyline item (a series of lines with optional arrows).
 
-=item * GooCanvas2::CanvasRect — a rectangle item.
+=item * GooCanvas2::CanvasRect - a rectangle item.
 
-=item * GooCanvas2::CanvasText — a text item.
+=item * GooCanvas2::CanvasText - a text item.
 
-=item * GooCanvas2::CanvasWidget — an embedded widget item.
+=item * GooCanvas2::CanvasWidget - an embedded widget item.
 
-=item * GooCanvas2::CanvasTable — a table container to layout items.
+=item * GooCanvas2::CanvasTable - a table container to layout items.
 
 =back
 
@@ -190,23 +190,23 @@ The GooCanvas2 module provides the following objects, items and models. For more
 
 =over
 
-=item * GooCanvas2::CanvasGroupModel — a model for a group of items.
+=item * GooCanvas2::CanvasGroupModel - a model for a group of items.
 
-=item * GooCanvas2::CanvasEllipseModel — a model for ellipse items.
+=item * GooCanvas2::CanvasEllipseModel - a model for ellipse items.
 
-=item * GooCanvas2::CanvasGridModel — a model for grid items.
+=item * GooCanvas2::CanvasGridModel - a model for grid items.
 
-=item * GooCanvas2::CanvasImageModel — a model for image items.
+=item * GooCanvas2::CanvasImageModel - a model for image items.
 
-=item * GooCanvas2::CanvasPathModel — a model for path items (a series of lines and curves).
+=item * GooCanvas2::CanvasPathModel - a model for path items (a series of lines and curves).
 
-=item * GooCanvas2::CanvasPolylineModel — a model for polyline items (a series of lines with optional arrows).
+=item * GooCanvas2::CanvasPolylineModel - a model for polyline items (a series of lines with optional arrows).
 
-=item * GooCanvas2::CanvasRectModel — a model for rectangle items.
+=item * GooCanvas2::CanvasRectModel - a model for rectangle items.
 
-=item * GooCanvas2::CanvasTextModel — a model for text items.
+=item * GooCanvas2::CanvasTextModel - a model for text items.
 
-=item * GooCanvas2::CanvasTableModel — a model for a table container to layout items.
+=item * GooCanvas2::CanvasTableModel - a model for a table container to layout items.
 
 =back
 

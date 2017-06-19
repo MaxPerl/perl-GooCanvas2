@@ -10,7 +10,7 @@ use warnings;
 
 use Test;
 BEGIN { plan tests => 1 };
-use Goo::Canvas2;
+use GooCanvas2;
 ok(1); # If we made it this far, we're ok.
 
 #########################
